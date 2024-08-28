@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A amiga deseparecida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você vive em uma pequena vila cercada por um misterioso bosque. Sua amiga, a jovem e destemida Elara, desapareceu há alguns dias enquanto explorava o bosque em busca de uma planta rara. Preocupado com o sumiço dela, você decide entrar no bosque para procurá-la e descobrir o que aconteceu.</p>
+            <button class="btn-proximo" data-proximo="1">Entrada 1</button>
+            <button class="btn-proximo" data-proximo="2">Entrada 2</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide seguir pelo caminho do misterioso bosque, no entanto, encontra caminhos traisoeiros onde se depara com um labirinto natural onde a magia do bosque distorce a realidade. Precisa-se de sabedoria e paciência para encontrar a saída </p>
+            <button class="btn-proximo" data-proximo="3">Seguir para esquerda</button>
+            <button class="btn-proximo" data-proximo="4">Seguir para direita</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Enquanto anda pelo caminho que deciu seguir se depara com um sentimento estranho como se estivesse presente de magia, repentinamente uma criatura flutaunte aparece em sua frente, uma fada. A fada te oferece ajuda em troca de uma terefa</p>
+            <button class="btn-proximo" data-proximo="5">Coletar uma erva magica</button>
+            <button class="btn-proximo" data-proximo="6">Resolver um enigma</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao seguir se depara com uma estranha parede de musgo que ao tocar parece querer te devorar vivo.</p>
+            <button class="btn-proximo" data-proximo="7">Voltar para direita</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é muito pergoso e volta para casa, mas sempre se pergunta se teria achado sua amiga.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Enquanto anda pela floresta procurando pela erva magica, avista assim pistas entre as ruínas de uma antiga civilização que habitava o bosque. Nela diz, "A sepente a captura, quem ousar contra ele se posicionar e aquele que a desafiar" .</p>
+            <button class="btn-proximo" data-proximo="7">Ir atrás de Elara na caverna</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Infelizmente você erra o enigma, no entanto sentida por você a fada lhe da a chance de procurar a erva magica</p>
+            <button class="btn-proximo" data-proximo="8">Procurar a erva magica</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Elara está presa dentro de uma caverna protegida por uma criatura ancestral. Você deve enfrentar ou enganar a serpente para libertá-la.</p>
+            <button class="btn-proximo" data-proximo="9">Enfrentar a serpente</button>
+            <button class="btn-proximo" data-proximo="10">Enganar a serpente</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Enquanto anda pela floresta procurando pela erva magica, avista assim pistas entre as ruínas de uma antiga civilização que habitava o bosque. Nela diz, "A sepente a captura, quem ousar contra ele se posicionar e aquele que a desafiar"</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Utilizando de uma pedra para afastar a cobra da entrada você consegue entrar e ajudar Elara</p>
+            <button class="btn-proximo" data-proximo="11">Corra antes que a cobra chegue</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Enfrentar a cobra é uma pessima ideia e ela acaba por te picar com seu veneno EXTREMAMENTE morta, depressa você tem somente alguns minutos!</p>
+            <button class="btn-proximo" data-proximo="12">Engane a cobra e solte Elara</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Agora você e Elara estão seguros, no entanto, somente uma duvida se mantem, como Elara foi parar ali?</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Utilizando de uma pedra para afastar a cobra da entrada você consegue entrar e ajudar Elara</p>
+            <button class="btn-proximo" data-proximo="11">Corra antes que a cobra volte</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
